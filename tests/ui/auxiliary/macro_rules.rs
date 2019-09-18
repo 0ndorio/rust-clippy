@@ -7,3 +7,9 @@ macro_rules! foofoo {
         loop {}
     };
 }
+
+macro_rules! must_use_unit {
+    () => {
+        fn foo() {}
+    }
+}
